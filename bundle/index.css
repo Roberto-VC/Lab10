@@ -1,0 +1,156 @@
+/*!**************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Components/App.css ***!
+  \**************************************************************************/
+
+/*!*************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Components/stateComponents/Calculator.css ***!
+  \*************************************************************************************************/
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/orbitron/v23/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6BoWgz.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+
+}
+
+.PantallaN{
+  background-color: rgb(36, 255, 131);
+  color: black;
+  text-align: right;
+  border-left: 25px solid;
+  border-bottom: 15px solid;
+  border-right: 25px solid;
+  border-color: black;
+  left: 50%;
+  height: 50px;
+  font-size: 50px;
+  font-family: "Orbitron";
+  display: grid;
+
+ 
+}
+
+.Pantalla{
+  background-color: rgb(36, 255, 131);
+  color: rgb(129, 129, 129);
+  font-family: "Orbitron";
+  border-left: 25px solid;
+  border-top: 15px solid;
+  border-right: 25px solid;
+  border-color: black;
+  text-align: right;
+  left: 50%;
+  height: 50px;
+  display: grid;
+  font-size: 25px;
+  grid: 0px 0px 0px 0px;
+
+
+}
+
+.Teclas{
+  justify-content: center;
+  
+  margin: 0 auto;
+  width: 50%;
+  display: grid;
+  width: 25%;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+
+.Teclas > button{
+  width: 100px;
+  height: 75px;
+  font-size: 25px;
+  background-color: white;
+}
+.Teclas > button:hover{
+  background-color: rgb(234, 234, 234);
+}
+#Zero{
+  grid-column: 1/3;
+  grid-row: 5;
+  width: 200px;
+}
+
+#Plus{
+  background-color: rgb(255, 200, 0);
+}
+#Minus{
+  background-color: rgb(255, 200, 0);
+}
+#Times{
+  background-color: rgb(255, 200, 0);
+}
+#Divide{
+  background-color: rgb(255, 200, 0);
+}
+#Equal{
+  background-color: rgb(255, 200, 0);
+}
+#Reset{
+  background-color: darkorange;
+}
+#Negative{
+  background-color: darkorange;
+}
+#Module{
+  background-color: darkorange;
+}
+
+#Plus:hover{
+  background-color: rgba(255, 200, 0, 0.659);
+}
+#Minus:hover{
+  background-color: rgba(255, 200, 0, 0.659);
+}
+#Times:hover{
+  background-color: rgba(255, 200, 0, 0.659);
+}
+#Divide:hover{
+  background-color: rgba(255, 200, 0, 0.659);
+}
+#Equal:hover{
+  background-color: rgba(255, 200, 0, 0.659);
+}
+#Reset:hover{
+  background-color: rgba(255, 140, 0, 0.858);
+}
+#Negative:hover{
+  background-color: rgba(255, 140, 0, 0.858);
+}
+#Module:hover{
+  background-color: rgba(255, 140, 0, 0.858);
+}
+.Todo{
+  background-color: gray;
+  z-index: 1;
+
+}
+
+#Fondo{
+  background-color: gray;
+  z-index: -1;
+  width: 450px;
+  border-color: black;
+
+}
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
+  \*****************************************************************/
+body{
+    background-color: aquamarine;
+}
+
+
